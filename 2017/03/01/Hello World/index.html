@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="GourdErwa Blog">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
 快速开始创">
-<meta property="og:updated_time" content="2017-03-01T07:52:35.000Z">
+<meta property="og:updated_time" content="2017-03-01T08:54:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello Hexo">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
@@ -96,7 +96,13 @@
          
           <li><a href="/archives/">Writing</a></li>
          
-          <li><a href="http://github.com/GourdErwa">Projects</a></li>
+          <li><a href="/categories">categories</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+         
+          <li><a href="/projects/">MyProjects</a></li>
+         
+          <li><a href="http://github.com/GourdErwa">Github</a></li>
         
       </ul>
     </span>
@@ -130,7 +136,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#快速开始"><span class="toc-number">1.</span> <span class="toc-text">快速开始</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建项目"><span class="toc-number">1.1.</span> <span class="toc-text">创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行"><span class="toc-number">1.2.</span> <span class="toc-text">运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码高亮"><span class="toc-number">1.5.</span> <span class="toc-text">代码高亮</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#快速开始"><span class="toc-number">1.</span> <span class="toc-text">快速开始</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建项目"><span class="toc-number">1.1.</span> <span class="toc-text">创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行"><span class="toc-number">1.2.</span> <span class="toc-text">运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码高亮示例"><span class="toc-number">1.5.</span> <span class="toc-text">代码高亮示例</span></a></li></ol></li></ol>
     </div>
   </span>
 </div>
@@ -178,8 +184,8 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr1 = <span class="keyword">new</span> <span class="built_in">Array</span>(arrayLength);</div><div class="line"><span class="keyword">var</span> arr2 = <span class="keyword">new</span> <span class="built_in">Array</span>(element0, element1, ..., elementN);</div></pre></td></tr></table></figure>
-<figure class="highlight java"><figcaption><span>Java Syntax</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">public</span></div><div class="line"><span class="meta">@Service</span></div><div class="line"><span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">DataBaseService</span> <span class="keyword">extends</span> <span class="title">PerformanceMonitoring</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function">IPerformanceMonitoringSearch&lt;QueryBuilder, SortBuilder&gt; <span class="title">getCustomIProject132Search</span><span class="params">()</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> SearchFactory.getCustomIProject132Search(</div><div class="line">                ElasticIndexTimeType.MONTH,</div><div class="line">                IPerformanceMonitoringSearch.INDEX_PREFIX,</div><div class="line">                IPerformanceMonitoringSearch.CD132_ORACLE_DATABASE_TYPE</div><div class="line">        );</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div></pre></td></tr></table></figure>
+<h3 id="代码高亮示例"><a href="#代码高亮示例" class="headerlink" title="代码高亮示例"></a>代码高亮示例</h3><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr1 = <span class="keyword">new</span> <span class="built_in">Array</span>(arrayLength);</div><div class="line"><span class="keyword">var</span> arr2 = <span class="keyword">new</span> <span class="built_in">Array</span>(element0, element1, ..., elementN);</div></pre></td></tr></table></figure>
+<figure class="highlight java"><figcaption><span>Java Syntax</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">public</span></div><div class="line"><span class="meta">@Service</span></div><div class="line"><span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">DataBaseService</span> <span class="keyword">extends</span> <span class="title">PerformanceMonitoring</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function">IPerformanceMonitoringSearch&lt;QueryBuilder, SortBuilder&gt; <span class="title">getCustomIProject132Search</span><span class="params">()</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> SearchFactory.getCustomIProjectSearch(</div><div class="line">                ElasticIndexTimeType.MONTH,</div><div class="line">                IPerformanceMonitoringSearch.INDEX_PREFIX,</div><div class="line">                IPerformanceMonitoringSearch.CD132_ORACLE_DATABASE_TYPE</div><div class="line">        );</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div></pre></td></tr></table></figure>
   </div>
 </article>
 
@@ -199,13 +205,19 @@
          
           <li><a href="/archives/">Writing</a></li>
          
-          <li><a href="http://github.com/GourdErwa">Projects</a></li>
+          <li><a href="/categories">categories</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+         
+          <li><a href="/projects/">MyProjects</a></li>
+         
+          <li><a href="http://github.com/GourdErwa">Github</a></li>
         
       </ul>
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#快速开始"><span class="toc-number">1.</span> <span class="toc-text">快速开始</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建项目"><span class="toc-number">1.1.</span> <span class="toc-text">创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行"><span class="toc-number">1.2.</span> <span class="toc-text">运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码高亮"><span class="toc-number">1.5.</span> <span class="toc-text">代码高亮</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#快速开始"><span class="toc-number">1.</span> <span class="toc-text">快速开始</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#创建项目"><span class="toc-number">1.1.</span> <span class="toc-text">创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#运行"><span class="toc-number">1.2.</span> <span class="toc-text">运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码高亮示例"><span class="toc-number">1.5.</span> <span class="toc-text">代码高亮示例</span></a></li></ol></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
@@ -251,7 +263,13 @@
          
           <li><a href="/archives/">Writing</a></li>
          
-          <li><a href="http://github.com/GourdErwa">Projects</a></li>
+          <li><a href="/categories">categories</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+         
+          <li><a href="/projects/">MyProjects</a></li>
+         
+          <li><a href="http://github.com/GourdErwa">Github</a></li>
         
       </ul>
     </nav>
