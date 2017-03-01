@@ -2,13 +2,16 @@ nav:
   Home: /
   About: /about/
   Writing: /archives/
-  Projects: http://github.com/GourdErwa
+  #categories: /categories
+  #tags: /tags
+  MyProjects: /projects/
+  Github: http://github.com/GourdErwa
 
 projects_url: http://github.com/GourdErwa
 
 customize:
     gravatar:
-        email: 
+        email: gourderwa@163.com
     logo:
         enabled: true
         width: 50
