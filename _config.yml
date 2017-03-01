@@ -68,4 +68,6 @@ theme: solar
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+ type: git
+ repo: https://github.com/GourdErwa/gourderwa_blog.git
+ branch: gh-pages
